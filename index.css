@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    color: #F61010;
+    font-family: Graduate;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    align-items: center;
+    /* width: 64rem;
+    height: 85.375rem; */
+}
+
+.imagemInicial {
+    width: 40.5625rem;
+    height: 25.6875rem;
+    border-radius: 1.5625rem;
+    background: url(assets/imagem\ inicial.jpg), lightgray 50%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.intro {
+    color: #FFF;
+    font-family: Graduate;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.boxIntro {
+    display: flex;
+    width: 40.125rem;
+    height: 20.625rem;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    border-radius: 1.5625rem;
+    background: rgba(217, 217, 217, 0.27);
+    margin-bottom: 15px;
+}
+
+.iniciar {
+    border-radius: 1.5625rem;
+    background: rgba(251, 8, 8, 0.62);
+    width: 40.5625rem;
+    height: 6.6875rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+
+.comecar {
+    color: #FFF;
+    font-family: Graduate;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
